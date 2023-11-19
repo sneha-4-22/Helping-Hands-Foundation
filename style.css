@@ -6,7 +6,7 @@ body {
 }
 
 header {
-  background-color: #333;
+  background-color: #5C4B99;
   color: #fff;
   padding: 1em;
   display: flex;
@@ -15,7 +15,7 @@ header {
 }
 .logo img{
   width: 100px;
-  border-radius: 20px;
+  border-radius: 40px;
   
 }
 nav ul {
@@ -39,34 +39,55 @@ nav a {
 
 .landing-page img {
   width: 500px;
-  height: auto;
+  border-radius: 670px;
   margin-top: 20px;
+ 
 }
-
+.program-card-container {
+  display: flex;
+  justify-content: space-between; 
+  
+}
 .program-card {
-  background-color: #f4f4f4;
+  background-color: #713ABE;
+  color: #fff;
   padding: 20px;
-  border-radius: 5px;
+  border-radius: 15px;
   margin-top: 20px;
+  flex: 30; 
+  margin-left: 30px;
+  margin-right: 30px;
 }
-.program-card img{
-  width: 500px;
+.program-card .hun{
+  width: 50%;
   display: block;
   margin: 0 auto; 
   border-radius: 15px;
 }
+.program-card .edu{
+  width: 70%;
+  display: block;
+  margin: 0 auto; 
+  border-radius: 15px;
+}
+.yo{
+  font-family: cursive;
+  text-align: center;
+  font-weight: bolder;
+}
 .donation-form {
-  background-color: #f9f9f9;
-  padding: 20px;
-  border-radius: 5px;
-  margin-top: 20px;
+  background-color: #E6E6FA;
+  padding: 45px;
+  border-radius: 10px;
   margin-bottom: 100px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-left: 25%;
+  margin-right: 25%;
+  box-shadow: 5px 5px 7px rgb(150, 20, 150);
 }
 
 form {
   display: grid;
-  gap: 10px;
+  gap: 15px;
 }
 
 label {
@@ -77,25 +98,29 @@ input {
   width: 100%;
   padding: 10px;
   box-sizing: border-box;
-  border: 1px solid #ccc;
+  border: 3px solid #ccc;
   border-radius: 5px;
 }
 
 button {
   padding: 10px;
-  background-color: #3498db;
+  background-color: rgba(124, 15, 207, 0.688);
   color: #fff;
   border: none;
-  border-radius: 5px;
+  border-radius: 15px;
   cursor: pointer;
   font-size: 16px;
+  margin-left: 250px;
+  margin-right: 250px;
 }
 
 button:hover {
-  background-color: #2980b9;
+  background-color: rgba(217, 185, 236, 0.675);
+  color: rgba(82, 6, 79, 0.688);
+ 
 }
 footer {
-  background-color: #333;
+  background-color: #5C4B99;
   color: #fff;
   text-align: center;
   padding: 1em;
