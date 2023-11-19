@@ -80,10 +80,29 @@
         <h2>Make a Donation</h2>
         <div class="donation-form">
             <form action="process_donation.php" method="post">
-                <!-- Donation form similar to the previous example -->
+                <label for="amount">Amount:</label>
+                <input type="text" id="amount" name="amount" placeholder="Enter amount" required>
+    
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" name="name" placeholder="Your full name" required>
+    
+                <label for="email">Your Email:</label>
+                <input type="email" id="email" name="email" placeholder="Your email address" required>
+    
+                <label for="cardNumber">Card Number:</label>
+                <input type="text" id="cardNumber" name="cardNumber" placeholder="Enter your card number" required>
+    
+                <label for="expiry">Expiry Date:</label>
+                <input type="text" id="expiry" name="expiry" placeholder="MM/YY" required>
+    
+                <label for="cvv">CVV:</label>
+                <input type="text" id="cvv" name="cvv" placeholder="CVV" required>
+    
+                <button type="submit">Donate Now</button>
             </form>
         </div>
     </section>
+
 
     <footer>
         <p>&copy; 2023 Helping Hands Foundation. All rights reserved.</p>
