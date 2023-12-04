@@ -48,6 +48,13 @@ nav a {
   justify-content: space-between; 
   
 }
+#yoyo{
+  background: linear-gradient(#F1EAFF,#DCBFFF,#D0BFFF,#F1EAFF);
+  margin:40px;
+  padding:20px;
+  border-radius: 30px;
+  border:5px solid #9F91CC;
+}
 .card {
   background-color: #9575DE;
   color: #fff;
